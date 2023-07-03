@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
+
+body > header {
+    background-color: #2f3640;
+    color: #fff;
+    padding: 16px 0;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-left: 16px;
+}
+
+
+
+
+.container {
+    width: 1366px;
+    margin: 0 auto 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    /*height: 180px;*/
+    width: 100%;
+    
+}
+
+.articles article {
+    width: 30%;
+    
+}
+
+section{
+    padding: 16px 0;
+}
+
+section h2, 
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+    border-radius: 10px;
+    text-decoration:none;
+    font-weight: 700;
+}
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px ;
+}
+
+#sports {
+    background-color: rgba(0, 255, 0, 0.1);
+}
+#sports .articles article a {
+    background-color: #009432;
+}
+
+#economy {
+    background-color: #f8f59f ;
+}
+
+#economy .articles article a {
+    background-color: #ff9f1a;
+}
+
+#technology {
+    background-color: rgba(147,112,219);
+}
+#technology .articles article a {
+    background-color: rgba(95,158,160);
+}
+
+#war {
+    background-color: rgba(119,136,153);
+}
+#war .articles article a {
+    background-color: rgba(192,192,192)
+}
+
+
+/*ja tentei de tudo, ja vi uns videos, porem não consegui fazer isso,
+minha inteção era colocar uma imagem FIXA na DIREITA.
+
+essa imagem, seria tipo "Contatos, propagrandas, mais noticias..."
+
+porem não consegui e não sei como faço isso.
+
+Pfv me explica isso.
+
+alem disso tbm não consegui fazer com que o Video do Youtube rodar*/
+
+#mais {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container1 a {
+    display: flex;
+    position: fixed;
+}
